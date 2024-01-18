@@ -36,7 +36,7 @@ function Home() {
       <Card />
       <Static />
       <PopupBanner/>
-     
+     <hr className='border-2 border-blue-200' />
       {/* <Example/> */}
       {/* <Hero3/> */}
       {/* <Newsletter /> */}

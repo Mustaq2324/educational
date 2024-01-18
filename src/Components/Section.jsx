@@ -1,4 +1,6 @@
 import React from 'react'
+import Hero from './Hero/Hero'
+import hero1 from "../assets/hero2.png"
 
 function Section() {
   return (
@@ -10,8 +12,9 @@ function Section() {
         <div className="relative h-64 sm:h-80 lg:h-full">
           <img
             alt="House"
-            src="https://img.freepik.com/free-photo/international-day-education-scene-with-fantasy-style_23-2151040354.jpg?t=st=1705484094~exp=1705487694~hmac=5de62704e589618d2bc76fa901152b30e8367a47133b2407682f8b4f5e1b2074&w=996"
-            className="absolute inset-0 h-full w-full object-cover"
+            src={hero1}
+            // "https://img.freepik.com/free-photo/international-day-education-scene-with-fantasy-style_23-2151040354.jpg?t=st=1705484094~exp=1705487694~hmac=5de62704e589618d2bc76fa901152b30e8367a47133b2407682f8b4f5e1b2074&w=996"
+            className="absolute inset-0  object-cover"
           />
         </div>
       </div>
