@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 // export default () => {
 //     const plans = [
@@ -118,16 +119,16 @@ export default () => (
                     integrations.map((item, idx) => (
                         <li className="border rounded-lg">
                             <div className="flex items-center justify-between p-4 shadow-inner shadow-[#358FFF]">
-                                <div className="space-y-2 text-center">
-                                    <img src={item.icon} alt=""  className='w-64 h-12 ms-16'/>
+                                <div className="space-y-2 text-center mx-auto">
+                                    <img src={item.icon} alt=""  className='w-64 h-12  '/>
                                     
                                     <h4 className="text-gray-800 font-bold mt-5">{item.title}</h4>
                                 </div>
                             </div>
-                            <div className="py-2 px-4 border-t text-right shadow-inner shadow-gray-700">
-                                <a href={item.href} className="text-[#358FFF] hover:text-black text-sm font-medium">
+                            <div className="py-2 px-4 border-t text-center shadow-inner shadow-gray-700">
+                                <Link to={item.href} className="text-[#358FFF] text-lg font-semibold hover:text-black">
                                     View
-                                </a>
+                                </Link>
                             </div>
                         </li>
                     ))
