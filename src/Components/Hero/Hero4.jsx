@@ -33,7 +33,7 @@ bg-[#358FFF]" role="button">
             animationData={animation}
           /> */}
 
-                    <img className="w-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/1/hero-img.png" alt="" />
+                    <img className="w-full h-[540px]" src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/1/hero-img.png" alt="" />
                 </div>
             </div>
         </div>
