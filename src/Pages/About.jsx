@@ -22,7 +22,7 @@ const About = () => {
  <div className="absolute bottom-0 right-0 overflow-hidden lg:inset-y-20">
         <img className="w-auto h-full" src="https://d33wubrfki0l68.cloudfront.net/1e0fc04f38f5896d10ff66824a62e466839567f8/699b5/images/hero/3/background-pattern.png" alt="" />
     </div>
-    <section className="relative py-12 sm:py-16 lg:py-20 lg:pb-10">
+    <section className="relative py-12 sm:py-16 lg:py-4 ">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="grid max-w-lg grid-cols-1 mx-auto lg:max-w-full lg:items-center lg:grid-cols-2 gap-y-12 lg:gap-x-8">
                 <div>

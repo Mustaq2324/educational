@@ -41,8 +41,8 @@ const [CounterOn,SetCounter]=useState(false)
 
             <div className="flex-1 max-w-screen-xl mx-auto mt-8 md:mt-0 px-1">
                 <div className="max-w-2xl mx-auto ">
-                    <h3 className=" text-3xl font-bold uppercase sm:text-4xl mb-4 sm:mb-6 text-center text-[#25283A]">Our customers are always happy</h3>
-                    <p className=" ps-3 text-gray-600">We understand that every student is unique. Our tutors tailor their approach to meet individual learning styles and needs.</p>
+                    <h3 className=" text-base ps-1 sm:ps-0 font-bold uppercase sm:text-4xl mb-4 sm:mb-6 text-center text-[#25283A]">Our customers are always happy</h3>
+                    <p className=" ps-1 text-gray-600">We understand that every student is unique. Our tutors tailor their approach to meet individual learning styles and needs.</p>
                 </div>
                 <div className="mt-12">
                     <ul className="flex flex-col gap-4 sm:flex-row items-center justify-center">

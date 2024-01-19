@@ -5,7 +5,7 @@ function Modern() {
     <div className='bg-white [#fff9ea]'>
         <h1 className='lg:text-4xl text-2xl font-semibold lg:w-[950px] mx-auto text-[#25283A]  text-center pt-10 font-montserrat'> <span className='text-[#4d9cfd]'>EMPOWERING</span> MODERN DAY EDUCATION</h1>
 
-<div className='flex flex-col lg:flex-row bg-[#4A8AD9] shadow-2xl justify-center items-center mt-32  pt-10 lg:pt-[50px] gap-14 pb-20 lg:pb-[150px] lg:w-[1200px] mx-auto lg:relative'>
+<div className='flex flex-col lg:flex-row bg-[#4A8AD9] shadow-2xl justify-center items-center mt-10  pt-5 lg:pt-[50px] gap-14 pb-20 lg:pb-[150px] lg:w-[1200px] mx-auto lg:relative'>
    <div className='lg:absolute flex gap-20  rounded-2xl lg:flex-row -top-10 flex-col'>
    <div className='bg-white shadow-lg  w-[290px] lg:w-[320px] lg:h-[230px]  h-[250px] rounded-xl flex flex-col justify-center p-2 ps-3 gap-4'>
         <h5 className='font-bold text-[#25283A] uppercase'>Teachers</h5>

@@ -24,18 +24,15 @@ function Section() {
           className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-[#F8F9FD]"
         ></span>
 
-        <div className="p-8 sm:p-16 lg:p-24">
-        <h1 className="text-4xl font-bold text-[#25283A] sm:text-6xl xl:text-8xl  font-montserrat
+        <div className=" sm:p-16 lg:p-24">
+        <h1 className="text-4xl font-bold text-[#25283A] sm:text-5xl xl:text-7xl  font-montserrat
 ">
-        <span className='text-[#4C9BFB]'>Talent </span>and Trust
+        <span className='text-[#4C9BFB] '>Talent </span>and Trust
               </h1>
 
              
-              <p className="mt-5 text-base text-gray-700 text-justify">Who brings (big) heart and soul into our programs every day? Our <u>teachers!</u> They’re experts at caring for kids and leading your child’s learning journey. Don’t be surprised if they start to feel like family. </p>
-              <ul className='flex flex-col gap-4 text-gray-700 mt-4 text-justify'>
-                <li>We hire people who love and understand children and are eager to be your partner in parenting.</li>
-                <li>Your kiddo will benefit from our whole-child curriculum (Early Foundations®) that’s built by our in-house team of education masterminds who continually build and refine it to meet the needs of young minds. </li>
-              </ul>
+              <p className="mt-5 text-base text-gray-700 text-justify">At LINK’S, we are driven by a steadfast belief in the profound impact of education. Our commitment is to go beyond the conventional boundaries of classroom learning, offering a transformative educational experience that resonates with the real world. At the core of LINK’S philosophy is the conviction that connecting subject knowledge to real-life experiences is the key to preparing students for success.</p>
+              
           
         </div>
       </div>
