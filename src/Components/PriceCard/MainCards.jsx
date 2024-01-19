@@ -95,11 +95,13 @@ const integrations = [
 
     }, {
         title: "NIOS",
-        icon: "https://www.nios.ac.in/images/NIOSlogo_with_title.png"
+        icon: "https://www.nios.ac.in/images/NIOSlogo_with_title.png",
+        href : "/nios"
 
     }, {
         title: "State Board",
-        icon: "https://www.tamilnadustateboard.org/wp-content/uploads/2023/09/final-logo3.jpg"
+        icon: "https://www.tamilnadustateboard.org/wp-content/uploads/2023/09/final-logo3.jpg",
+        href : "/state"
 
     },
 ]

@@ -165,7 +165,7 @@ export default () => {
         <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
             <div className='relative max-w-xl mx-auto sm:text-center'>
                 <h3 className='text-gray-800 text-3xl font-semibold sm:text-4xl'>
-                    CBSE
+                   NIOS
                 </h3>
                
             </div>

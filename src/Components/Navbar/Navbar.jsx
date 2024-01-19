@@ -95,10 +95,10 @@ function Navbar() {
             <li onClick={handleMenuToggle} className="text-[#25283A]mt-2 ms-4 cursor-pointer hover:text-[#358FFF]">
               <Link to="/about">About</Link>
             </li>
-            {/* <li onClick={handleMenuToggle} className="text-[#25283A]mt-2 ms-4 cursor-pointer hover:text-[#358FFF]">
+            <li onClick={handleMenuToggle} className="text-[#25283A]mt-2 ms-4 cursor-pointer hover:text-[#358FFF]">
               <Link to="/courses">Courses</Link>
             </li>
-            <li onClick={handleMenuToggle} className="text-[#25283A]mt-2 ms-4 cursor-pointer hover:text-[#358FFF]">
+            {/* <li onClick={handleMenuToggle} className="text-[#25283A]mt-2 ms-4 cursor-pointer hover:text-[#358FFF]">
               <Link to="/teacher">Teacher</Link>
             </li> */}
             <li onClick={handleMenuToggle} className="text-[#25283A] mt-2 ms-4 cursor-pointer hover:text-[#358FFF]">
