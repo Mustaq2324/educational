@@ -24,7 +24,7 @@ function Section() {
           className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-[#F8F9FD]"
         ></span>
 
-        <div className="p-8 sm:p-16 lg:p-24">
+        <div className=" sm:p-16 lg:p-24">
         <h1 className="text-4xl font-bold text-[#25283A] sm:text-5xl xl:text-7xl  font-montserrat
 ">
         <span className='text-[#4C9BFB] '>Talent </span>and Trust
