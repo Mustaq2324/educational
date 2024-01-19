@@ -49,16 +49,16 @@ function Navbar() {
                   About
                 </Link>
               </li>
-              {/* <li>
+               <li>
                 <Link to="/courses" className="text-[#25283A] cursor-pointer hover:text-[#358FFF]">
                   Courses
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/teacher" className="text-[#25283A] cursor-pointer hover:text-[#358FFF]">
                   Teacher
                 </Link>
-              </li> */}
+              </li>  */}
               <li>
                 <Link to="/contact" className="text-[#25283A] cursor-pointer hover:text-[#358FFF]">
                   Contact

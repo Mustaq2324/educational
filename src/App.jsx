@@ -6,6 +6,9 @@ import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
 import Courses from './Pages/Courses';
 import Contact from './Pages/Contact';
+import PriceCardMobile from './Components/PriceCard/PriceCardMobile';
+import NiosMobile from './Components/PriceCard/NiosMobile';
+import StateBoardMobile from './Components/PriceCard/StateBoardMobile';
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/cbse" element={<PriceCardMobile />} />
+        <Route path="/nios" element={<NiosMobile />} />
+        <Route path="/state" element={<StateBoardMobile />} />
         {/* Add more routes for other pages if needed */}
       </Routes>
       <Footer />
