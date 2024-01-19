@@ -109,22 +109,23 @@ const integrations = [
 export default () => (
     <section className="py-16">
         <div className="max-w-screen-xl mx-auto px-4 md:px-8">
-            <div className="max-w-md">
-                <h1 className="text-gray-800 text-xl font-extrabold sm:text-2xl">Courses</h1>
+            <div className="">
+            <h1 className='lg:text-5xl text-2xl text-[#25283A]  font-semibold text-center'>Our <span className="text-[#358FFF]">Courses</span> </h1>
+
             </div>
             <ul className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
                 {
                     integrations.map((item, idx) => (
                         <li className="border rounded-lg">
-                            <div className="flex items-center justify-between p-4">
+                            <div className="flex items-center justify-between p-4 shadow-inner shadow-[#358FFF]">
                                 <div className="space-y-2 text-center">
                                     <img src={item.icon} alt=""  className='w-64 h-12 ms-16'/>
                                     
-                                    <h4 className="text-gray-800 font-semibold mt-5">{item.title}</h4>
+                                    <h4 className="text-gray-800 font-bold mt-5">{item.title}</h4>
                                 </div>
                             </div>
-                            <div className="py-2 px-4 border-t text-right">
-                                <a href={item.href} className="text-indigo-600 hover:text-indigo-500 text-sm font-medium">
+                            <div className="py-2 px-4 border-t text-right shadow-inner shadow-gray-700">
+                                <a href={item.href} className="text-[#358FFF] hover:text-black text-sm font-medium">
                                     View
                                 </a>
                             </div>

@@ -174,20 +174,20 @@ export default () => {
                     plans.map((item, idx) => (
                         <div key={idx} className='relative flex-1 flex items-stretch flex-col p-8 rounded-xl border-2'>
                             <div>
-                                <span className='text-indigo-600 font-medium'>
+                                <span className='text-[#358FFF]  font-medium'>
                                     {item.name}
                                 </span>
-                                <div className='mt-4 text-gray-800 text-3xl font-semibold'>
+                                <div className='mt-4 text-gray-800 text-3xl font-bold'>
                                     ${item.price} <span className="text-xl text-gray-600 font-normal">/mo</span>
                                 </div>
                             </div>
                             <ul className='py-8 space-y-3'>
                                 {
                                     item.features.map((featureItem, idx) => (
-                                        <li key={idx} className='flex items-center gap-5'>
+                                        <li key={idx} className='flex items-center gap-5 text-gray-600'>
                                             <svg
                                                 xmlns='http://www.w3.org/2000/svg'
-                                                className='h-5 w-5 text-indigo-600'
+                                                className='h-5 w-5 text-[#358FFF] '
                                                 viewBox='0 0 20 20'
                                                 fill='currentColor'>
                                                 <path
@@ -201,7 +201,7 @@ export default () => {
                                 }
                             </ul>
                             <div className="flex-1 flex items-end">
-                                <button className='px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700'>
+                                <button className='px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-[#358FFF]  hover:bg-blue-700 active:bg-indigo-700'>
                                     Get Started
                                 </button>
                             </div>

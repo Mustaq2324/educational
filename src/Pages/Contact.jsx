@@ -7,12 +7,12 @@ const Contact = () => {
   <div class="mx-auto max-w-7xl px-4">
     <div class="flex flex-col space-y-8 pb-10 pt-12 md:pt-24">
       <div class="mx-auto max-w-max rounded-full border bg-gray-50 p-1 px-3">
-        <p class="text-center text-xs font-semibold leading-normal md:text-sm">
+        <p class="text-center text-gray-800 text-xs font-semibold leading-normal md:text-sm">
           Share your thoughts
         </p>
       </div>
-      <p class="text-center text-3xl font-bold text-gray-900 md:text-5xl md:leading-10">
-       Contact Us
+      <p class="text-center text-3xl font-bold text-gray-800 md:text-5xl md:leading-10">
+       <span className='text-[#358FFF]'>Contact</span>  Us
       </p>
       <p class="mx-auto max-w-4xl text-center text-base text-gray-600 md:text-xl">
       Have questions or need more information? Feel free to reach
@@ -24,8 +24,8 @@ email or by filling out the online enquiry form on our website.
       <div class="grid items-center justify-items-center gap-x-4 gap-y-10 lg:grid-cols-2">
         <div class="flex items-center justify-center">
           <div class="px-2 md:px-12">
-            <p class="text-2xl font-bold text-gray-900 md:text-4xl">
-              Get in touch
+            <p class="text-2xl font-bold text-gray-800 md:text-4xl">
+              Get in  <span className='text-[#358FFF]'> touch</span> 
             </p>
             <p class="mt-4 text-lg text-gray-600">
               Our friendly team would love to hear from you.
@@ -105,7 +105,7 @@ email or by filling out the online enquiry form on our website.
               </div>
               <button
                 type="button"
-                class="w-full rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                class="w-full rounded-md bg-[#358FFF] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
               >
                 Send Message
               </button>

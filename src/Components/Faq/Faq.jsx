@@ -32,7 +32,7 @@ const FaqsCard = (props) => {
                 ) : (
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="h-5 w-5 text-gray-500 ml-2"
+                        className="h-5 w-5 text-[#358FFF] ml-2"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -104,16 +104,16 @@ const FAQSection = () => {
 
     return (
         <section className="leading-relaxed max-w-screen-xl mt-12 mx-auto px-4 md:px-8 lg:mb-12">
-            <div className="space-y-3 text-center">
-                <h1 className="text-3xl text-gray-800 font-semibold">
-                    Frequently Asked Questions
+            <div className="space-y-10 text-center">
+                <h1 className="text-3xl text-[#25283A] font-bold">
+                  <span className="text-[#358FFF]">Frequently</span>   Asked Questions
                 </h1>
-                <p className="text-gray-600 max-w-lg mx-auto text-lg">
+                <p className="text-gray-600 max-w-lg mx-auto text-lg ">
                     Answered all frequently asked questions, Still confused? feel free to contact us.
                 </p>
             </div>
-            <div className="flex flex-col gap-8 md:flex-row">
-                <div className="max-w-2xl mx-auto md:w-1/2">
+            <div className="flex flex-col gap-10 md:flex-row pt-10 pb-10">
+                <div className="max-w-2xl  mx-auto md:w-1/2">
                     {faqsList.map((item, idx) => (
                         <FaqsCard key={idx} idx={idx} faqsList={item} />
                     ))}
