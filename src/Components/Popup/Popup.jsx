@@ -43,7 +43,7 @@ const PopupBanner = () => {
                 <div className="p-4 md:p-6 lg:p-8 xl:p-10 rounded-md text-center  max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl">
                     {/* Add your banner image and any other content here */}
                     <img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAzpktXMWqK3lL1FNR6GiQGgNasq2yeB1VPA&usqp=CAU"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRyDOzQ9fB7D_r0MhfaVoVC2GmFL0XBia9jw&usqp=CAU"
                         alt="Popup Banner"
                         className="max-w-full mb-4"
                     />
