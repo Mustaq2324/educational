@@ -7,7 +7,7 @@ const BrightFuture = () => {
         <section className="py-12 bg-white sm:py-16 lg:py-20">
     <div className="px-4 mx-auto text-[#4C9BFB] max-w-7xl sm:px-6 lg:px-8">
         <div className="text-center">
-            <h2 className="text-3xl font-bold leading-tight text-[#25283A] font-montserrat sm:text-4xl xl:text-5xl "> <span className='text-[#4C9BFB]'>BrightFuture</span> Champions</h2>
+            <h2 className="text-3xl font-bold leading-tight text-[#25283A] font-montserrat sm:text-3xl xl:text-4xl "> <span className='text-[#4C9BFB]'>BrightFuture</span> Champions</h2>
             {/* <p className="mt-4 text-base leading-7 text-[#7C7E87] sm:mt-8 ">Lorem ipsum dolor sit amet, consectetur adipis elit</p> */}
         </div>
 
