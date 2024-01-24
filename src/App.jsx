@@ -11,6 +11,9 @@ import NiosMobile from './Components/PriceCard/NiosMobile';
 import StateBoardMobile from './Components/PriceCard/StateBoardMobile';
 import Admission from './Pages/Admission';
 import Join from './Pages/Join';
+import NiosSenior from './Components/PriceCard/NiosSenior';
+import StateSenior from './Components/PriceCard/StateSenior';
+import CbseSenior from './Components/PriceCard/CbseSenior';
 
 
 function App() {
@@ -23,13 +26,15 @@ function App() {
         <Route path="/courses" element={<Courses />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/cbse" element={<PriceCardMobile />} />
+        <Route path="/cbsesenior" element={<CbseSenior />} />
         <Route path="/nios" element={<NiosMobile />} />
+        <Route path="/niossenior" element={<NiosSenior />} />
         <Route path="/state" element={<StateBoardMobile />} />
+        <Route path="/statesenior" element={<StateSenior />} />
         <Route path="/admission" element={<Admission />} />
 
         <Route path="/carrers" element={<Join />} />
 
-        {/* Add more routes for other pages if needed */}
       </Routes>
       <Footer />
     </Router>

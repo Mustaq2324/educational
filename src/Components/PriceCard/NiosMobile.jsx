@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 export default () => {
     const plans = [
         {
-            name: "Secondary - G 9 & 10 Arabic",
+            name: " G 9 & 10 Arabic",
             price: 12,
             features: [
                 "One To One Sessions",
@@ -11,7 +11,7 @@ export default () => {
             ],
         },
         {
-            name: "Secondary - G 9&10 English",
+            name: " G 9&10 English",
             price: 35,
             features: [
                 "One To One Sessions",
@@ -20,7 +20,7 @@ export default () => {
             ],
         },
         {
-            name: "Secondary - G 9&10 Mathematics",
+            name: " G 9&10 Mathematics",
             price: 60,
             features: [
                 "One To One Sessions",
@@ -28,7 +28,7 @@ export default () => {
             ],
         },
         {
-            name: "Secondary - G 9&10 Economics",
+            name: " G 9&10 Economics",
             price: 60,
             features: [
                 "One To One Sessions",
@@ -36,7 +36,7 @@ export default () => {
             ],
         },
         {
-            name: "Secondary - G 9&10 Business Studies",
+            name: " G 9&10 Business Studies",
             price: 60,
             features: [
                 "One To One Sessions",
@@ -44,7 +44,7 @@ export default () => {
             ],
         },
         {
-            name: "Secondary - G 9&10 Data Entry Operation",
+            name: " G 9&10 Data Entry Operation",
             price: 60,
             features: [
                 "One To One Sessions",
@@ -52,7 +52,7 @@ export default () => {
             ],
         },
         {
-            name: "Secondary - G 9&10 Science & Technology",
+            name: " G 9&10 Science & Technology",
             price: 60,
             features: [
                 "One To One Sessions",
@@ -60,101 +60,14 @@ export default () => {
             ],
         },
         {
-            name: "Secondary - G 9&10 Accounting",
+            name: " G 9&10 Accounting",
             price: 60,
             features: [
                 "One To One Sessions",
                 "Limited Seats",
             ],
         },
-        {
-            name: "Senior Secondary G 11 &12 Arabic",
-            price: 60,
-            features: [
-                "One To One Sessions",
-                "Limited Seats",
-            ],
-        },
-        {
-            name: "Senior Secondary G 11 &12 English",
-            price: 60,
-            features: [
-                "One To One Sessions",
-                "Limited Seats",
-            ],
-        },
-        {
-            name: "Senior Secondary G 11 &12 Mathematics",
-            price: 60,
-            features: [
-                "One To One Sessions",
-                "Limited Seats",
-            ],
-        },
-        {
-            name: "Senior Secondary G 11 &12 Physics",
-            price: 60,
-            features: [
-                "One To One Sessions",
-                "Limited Seats",
-            ],
-        },
-        {
-            name: "Senior Secondary G 11 &12 Chemistry",
-            price: 60,
-            features: [
-                "One To One Sessions",
-                "Limited Seats",
-            ],
-        },
-        {
-            name: "Senior Secondary G 11 &12 Biology",
-            price: 60,
-            features: [
-                "One To One Sessions",
-                "Limited Seats",
-            ],
-        },
-        {
-            name: "Senior Secondary G 11 &12 Accounting",
-            price: 60,
-            features: [
-                "One To One Sessions",
-                "Limited Seats",
-            ],
-        },
-        {
-            name: "Senior Secondary G 11 &12 Economics",
-            price: 60,
-            features: [
-                "One To One Sessions",
-                "Limited Seats",
-            ],
-        },
-        {
-            name: "Senior Secondary G 11 &12 Business Studies",
-            price: 60,
-            features: [
-                "One To One Sessions",
-                "Limited Seats",
-            ],
-        },
-        {
-            name: "Senior Secondary G 11 &12 Computer Science",
-            price: 60,
-            features: [
-                "One To One Sessions",
-                "Limited Seats",
-            ],
-        },
-        {
-            name: "Senior Secondary G 11 &12 Data Entry Operation",
-            price: 60,
-            features: [
-                "One To One Sessions",
-                "Limited Seats",
-            ],
-        },
+        
         // Add more plans as needed
     ];
 
@@ -165,7 +78,7 @@ export default () => {
         <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
             <div className='relative max-w-xl mx-auto sm:text-center'>
                 <h3 className='text-gray-800 text-3xl font-semibold sm:text-4xl'>
-                   NIOS
+                   NIOS Secondary
                 </h3>
                
             </div>
