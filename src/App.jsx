@@ -9,11 +9,14 @@ import Contact from './Pages/Contact';
 import PriceCardMobile from './Components/PriceCard/PriceCardMobile';
 import NiosMobile from './Components/PriceCard/NiosMobile';
 import StateBoardMobile from './Components/PriceCard/StateBoardMobile';
+import Admission from './Pages/Admission';
+import Join from './Pages/Join';
+
 
 function App() {
   return (
     <Router>
-        <Navbar />
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -22,6 +25,10 @@ function App() {
         <Route path="/cbse" element={<PriceCardMobile />} />
         <Route path="/nios" element={<NiosMobile />} />
         <Route path="/state" element={<StateBoardMobile />} />
+        <Route path="/admission" element={<Admission />} />
+
+        <Route path="/carrers" element={<Join />} />
+
         {/* Add more routes for other pages if needed */}
       </Routes>
       <Footer />

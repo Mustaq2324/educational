@@ -54,11 +54,11 @@ function Navbar() {
                   Courses
                 </Link>
               </li>
-              {/* <li>
-                <Link to="/teacher" className="text-[#25283A] cursor-pointer hover:text-[#358FFF]">
-                  Teacher
+              <li>
+                <Link to="/admission" className="text-[#25283A] cursor-pointer hover:text-[#358FFF]">
+                  Admission
                 </Link>
-              </li>  */}
+              </li> 
               <li>
                 <Link to="/contact" className="text-[#25283A] cursor-pointer hover:text-[#358FFF]">
                   Contact
@@ -77,7 +77,10 @@ function Navbar() {
             </div>
           </div>
           <div className="lg:block hidden">
-            <button className="hover:bg-[#25283A]  px-4 py-2 rounded-lg text-white  hover:scale-[0.9] bg-[#358FFF]  font-semibold  transition-all duration-500 " >Work With us</button>
+            <button className="hover:bg-[#25283A]  px-4 py-2 rounded-lg text-white  hover:scale-[0.9] bg-[#358FFF]  font-semibold  transition-all duration-500 " ><Link to="/carrers">
+            Work With us
+              </Link>  
+              </button>
           </div>
         </div>
         {/* mobile nav */}
