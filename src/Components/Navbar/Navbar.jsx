@@ -35,22 +35,24 @@ function Navbar() {
       <div className="p-3 lg:px-4 w-full bg-white top-0 z-50 overflow-x-hidden transition-all duration-500">
         <div className="flex items-center justify-between lg:px-4">
           <div>
+            <Link to="/">
             <h1 className="text-[#25283A] text-4xl font-semibold ">Link's <span className="text-[#358FFF]">Institute</span></h1>
+            </Link>
           </div>
           <div className="mt-1 lg:flex items-center justify-center hidden pb-2 lg:pb-0 me-8 lg:me-0">
             <ul className="flex gap-5 justify-center text-lg items-center ">
               <li>
-                <Link to="/" className="text-[#25283A] cursor-pointer hover:text-[#358FFF]">
+                <Link to="/" className="text-[#25283A] cursor-pointer z-[99] hover:text-[#358FFF]">
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="text-[#25283A] hover:text-[#358FFF] cursor-pointer ">
+                <Link to="/about" className="text-[#25283A] hover:text-[#358FFF] z-[99] cursor-pointer ">
                   About
                 </Link>
               </li>
                <li>
-                <Link to="/courses" className="text-[#25283A] cursor-pointer hover:text-[#358FFF]">
+                <Link to="/courses" className="text-[#25283A] cursor-pointer z-[99] hover:text-[#358FFF]">
                   Courses
                 </Link>
               </li>
@@ -60,7 +62,7 @@ function Navbar() {
                 </Link>
               </li> 
               <li>
-                <Link to="/contact" className="text-[#25283A] cursor-pointer hover:text-[#358FFF]">
+                <Link to="/contact" className="text-[#25283A] cursor-pointer z-[99] hover:text-[#358FFF]">
                   Contact
                 </Link>
               </li>
