@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { IoCloseCircle } from 'react-icons/io5';
 import { FaBars } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import Dropdown from 'react-bootstrap/Dropdown';
 
 function Navbar() {
   const [drop, setDrop] = useState(false);
